@@ -7,5 +7,8 @@ CREATE USER IF NOT EXISTS 'reworkd_platform'@'%' IDENTIFIED BY 'reworkd_platform
 -- Grant the necessary permissions
 GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT ON *.* TO 'reworkd_platform'@'%';
 
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT ON *.* TO 'reworkd_platform'@'%';
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT ON *.* TO 'reworkd_platform'@'%';
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT ON *.* TO 'reworkd_platform'@'%';
 -- Apply the changes
 FLUSH PRIVILEGES;
